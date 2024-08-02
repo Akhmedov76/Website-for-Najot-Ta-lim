@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(5, 5, 54);
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title a {
+    color: #fff;
+    text-decoration: none
+}
+
+.title a:hover {
+    color: rgb(0, 255, 4);
+    border-radius: 8px
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.row a:hover {
+    color: rgb(0, 255, 4);
+}
+
+.btn {
+    width: 70px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(9, 253, 196);
+}
+
+
+
